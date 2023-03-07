@@ -1,0 +1,18 @@
+button.close-left-menu {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    max-width: 52px;
+}
+
+button.close-left-menu .MuiButton-startIcon {
+    margin-right: 0;
+}
+
+.close-left-menu-switch {
+    min-width: unset !important;
+    max-width: 52px !important;
+    min-height: 36px;
+}
+.close-left-menu-switch span {
+    margin: 0;
+}

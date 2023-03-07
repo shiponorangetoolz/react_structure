@@ -1,0 +1,9 @@
+.verification_header {
+    text-align: center;
+}
+
+.img_icon {
+    height: 96px;
+    width: 96px;
+    object-fit: contain;
+}

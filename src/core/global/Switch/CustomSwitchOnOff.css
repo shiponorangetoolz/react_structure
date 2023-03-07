@@ -1,0 +1,13 @@
+.checkedOn_switch .MuiSwitch-track:after {
+    display: none;
+}
+
+.uncheckedOff_switch .MuiSwitch-track:before {
+    display: none;
+}
+.unchecked_switch .MuiSwitch-root {
+    /*width: 132px !important;*/
+}
+/*.unchecked_switch .MuiSwitch-track:before{*/
+/*    display: none;*/
+/*}*/

@@ -1,0 +1,14 @@
+@media (max-width: 1550px) {
+    .integration_item__header {
+        /*flex-direction: column !important;*/
+    }
+
+    .connect_button_grid {
+        /*max-width: 100% !important;*/
+        flex-basis: 100% !important;
+        text-align: left !important;
+    }
+    .connect_button {
+        margin: 10px 0 18px !important;
+    }
+}

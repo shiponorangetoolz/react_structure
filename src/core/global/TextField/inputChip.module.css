@@ -1,0 +1,18 @@
+.custom__chip__wrapper .MuiOutlinedInput-root {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.custom__chip__wrapper textarea {
+    overflow: hidden;
+    margin: 0 0 0 0 !important;
+    width: auto;
+}
+.custom__chip__wrapper .css-6z6hda-MuiInputBase-input-MuiOutlinedInput-input {
+    display: inherit;
+}
+
+.chip_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}

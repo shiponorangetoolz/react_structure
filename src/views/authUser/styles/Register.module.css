@@ -1,0 +1,23 @@
+.register_form_wrapper {
+    max-width: 624px;
+    width: 100%;
+    padding: 60px;
+}
+
+.register_form_header {
+    text-align: center;
+}
+
+.register_form_area {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.formFooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

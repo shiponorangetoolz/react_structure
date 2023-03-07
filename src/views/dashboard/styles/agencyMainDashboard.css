@@ -1,0 +1,34 @@
+.agency_client_history_chart_left_wr {
+    height: 100%;
+    display: flex;
+    grid-gap: 8px;
+}
+.agency_client_history_chart_left_wr .agency_client_history_chart_left_container {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1600px) {
+    .agency_client_history_chart_left_container .recharts-responsive-container {
+        width: 146px !important;
+    }
+    .agency_client_history_chart_left_container .recharts-wrapper {
+        width: auto !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .agency_client_history_chart_left_container .recharts-responsive-container {
+        width: 300px !important;
+    }
+    .agency_client_history_chart_wr {
+        grid-row-gap: 32px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .agency_client_history_chart_left_container .recharts-responsive-container {
+        width: 200px !important;
+    }
+    .agency_client_history_chart_wr {
+        grid-row-gap: 73px;
+    }
+}

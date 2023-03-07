@@ -1,0 +1,11 @@
+.table .billing_status {
+    display: inline-flex;
+    grid-gap: 5px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .table .billing_status {
+        margin-top: 0 !important;
+    }
+}

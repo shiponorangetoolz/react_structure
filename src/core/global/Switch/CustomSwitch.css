@@ -1,0 +1,15 @@
+.checked_switch .MuiSwitch-track:after {
+    display: none;
+}
+
+.unchecked_switch .MuiSwitch-track:before {
+    display: none;
+}
+.unchecked_switch .MuiSwitch-root {
+    width: 132px !important;
+}
+@media screen and (max-width: 1366px) {
+    .unchecked_switch .MuiSwitch-root {
+        width: 108px !important;
+    }
+}

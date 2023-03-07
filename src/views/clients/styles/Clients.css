@@ -1,0 +1,31 @@
+.clients_container .client_table {
+}
+
+.client_table .rdt_Pagination {
+    height: 71px;
+    align-items: flex-start;
+    padding-top: 15px;
+}
+.client_table .rdt_TableHeadRow {
+    border-bottom-width: 0;
+    border-radius: 4px 4px 0px 0px;
+    height: 56px;
+}
+.client_table .rdt_TableBody .rdt_TableRow {
+    padding: 12px 0;
+}
+.client_table .rdt_Pagination select {
+    outline: none;
+}
+
+.client_table .rdt_Pagination button {
+    height: unset !important;
+    width: unset !important;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 1366px) {
+    .client_table .rdt_TableBody .rdt_TableRow {
+        padding: 5px 0 !important;
+    }
+}

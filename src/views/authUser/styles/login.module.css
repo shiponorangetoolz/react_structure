@@ -1,0 +1,23 @@
+.login_form_wrapper {
+    max-width: 624px;
+    width: 100%;
+    padding: 48px;
+    box-sizing: border-box;
+}
+
+.login_form_header {
+    text-align: center;
+}
+
+.login_form_area {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+    margin-top: 16px;
+    width: 100%;
+}
+.formFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

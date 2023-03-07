@@ -1,0 +1,13 @@
+.verification_form_wrapper {
+    max-width: 624px;
+    width: 100%;
+    padding: 60px;
+}
+
+.verification_form_area {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    margin-top: 16px;
+    width: 100%;
+}

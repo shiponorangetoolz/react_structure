@@ -1,0 +1,23 @@
+.card__header {
+    padding: 24px;
+}
+
+.hasRightBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hasRightBtn svg {
+    margin-right: 8px;
+}
+
+@media (max-width: 1024px) {
+    .hasRightBtn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hasRightBtn button {
+        margin-top: 12px;
+    }
+}
