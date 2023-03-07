@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 import { Outlet } from "react-router-dom";
 import Styles from "./AuthLayout.module.css";
 import { useTheme } from "@mui/material/styles";
-import Logo from "../../../core/asset/images/Logo/earn5_login_logo.png";
+import Logo from "../../../core/asset/images/Logo/profile_logo.png";
 import PublicLayout from "../PublicLayout";
 import { useState } from "react";
 import CoreHref from "../../../core/global/Link/CoreHref";
@@ -14,10 +14,10 @@ const AuthLayout = () => {
 
 
   const [companyInfo, setCompanyInfo] = useState({
-    company_name: "Earn5 Star",
+    company_name: "Consectetur",
     company_logo: Logo,
     description:
-      "Keep your reputation intact with Business Review Central. Create your account today and manage your reviews."
+      "Lorem ipsum dolor sit amet. Aut debitis deserunt non odit dolores est pariatur velit et porro enim hic reprehenderit libero."
   });
 
   return (
